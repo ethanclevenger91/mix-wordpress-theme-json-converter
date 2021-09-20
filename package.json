@@ -1,0 +1,31 @@
+{
+  "name": "mix-wordpress-theme-json-converter",
+  "version": "1.0.0-beta.1",
+  "description": "Convert common WordPress `theme.json` settings into a flat JSON file.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ethanclevenger91/mix-wordpress-theme-json-converter.git"
+  },
+  "author": "Ethan Clevenger <ethan.c.clevenger@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ethanclevenger91/mix-wordpress-theme-json-converter/issues"
+  },
+  "homepage": "https://github.com/ethanclevenger91/mix-wordpress-theme-json-converter#readme",
+  "keywords": [
+    "laravel-mix",
+    "bootstrap",
+    "webpack",
+    "sass"
+  ],
+  "dependencies": {
+    "laravel-mix": "6.0.x"
+  },
+  "peerDependencies": {
+    "node-sass-json-importer": "^4.3.0"
+  }
+}
